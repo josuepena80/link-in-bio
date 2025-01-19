@@ -1,7 +1,40 @@
+html {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 40px 0;
+  background: linear-gradient(135deg, #5b522c, #5b522b, #585128, #4e4e1e, #3c4911, #2d470b, #264607, #254606);
+  min-width: 100%;
+  color: black;
+}
 
+a {
+  color: black;
+}
+
+.main-containter {
+  max-width: 640px;
+  margin: auto;
+}
+
+.image-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.name-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .avatar-image {
@@ -18,4 +51,18 @@ body {
   height: 48px;
   border-radius: 48px;
   border: 2px burlywood solid;
+  display: flex;
+  justify-content: start;
+}
+
+.links-row {
+  background-color: rgba(94, 179, 0, 0.2);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
 }
