@@ -41,7 +41,7 @@ a {
   display: flex;
   justify-content: space-around;
   font-family: 'Cambo', serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .avatar-image {
@@ -63,16 +63,21 @@ a {
 }
 
 .links-row {
-  background-color: rgba(94, 179, 0, 0.2);
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   font-family: 'Cambo', serif;
   font-size: 25px;
+  padding: 15px 0;
 }
 
 .item {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 1000px;
+  padding: 10px;
+  box-shadow: 4px 4px 10px 0px rgba(9, 26, 6, 0.5);
+  background-color: rgba(94, 179, 0, 0.1);
+  margin-bottom: 10px;
 }
