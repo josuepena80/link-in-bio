@@ -1,0 +1,56 @@
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  color: darkslategrey
+}
+
+h3 {
+  font-size: 28px;
+}
+
+body {
+  font-size: 21px;
+  margin: 0;
+}
+
+header {
+  background-color: #588C94;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+
+.intro {
+  text-align: center;
+  color: darkgray;
+  margin: 65px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.columns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+
+}
+
+.my-skills {
+  background-color: #1D3C41;
+  color: whitesmoke;
+  padding: 75px 50px;
+  text-align: center;
+}
+
+.column {
+  margin: 0 15px;
+}
+
+span {
+  font-weight: bold;
+  color: green;
+}
